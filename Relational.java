@@ -8,6 +8,9 @@ public class Relational {
         System.out.println("x is = " + x + "y is =" + y );
         System.out.println(x == y);
         System.out.println(x != y);
+        x++;
+        --y;
+        //x and y value changed//
         System.out.println(x -= y);
         // now x's value = -25
         System.out.println(x *= y);
